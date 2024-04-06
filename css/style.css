@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Covered+By+Your+Grace&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Preahvihear&family=Rubik+Wet+Paint&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Covered By Your Grace', cursive;
+}
+/* Global Styles */
+body{
+    background: #eeeeee;
+}
+/* Navbar Styles */
+nav ul{
+    background: #eeeeee;
+    height: 5em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 2em;
+}
+nav img{
+    max-width: 3em;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    color: black;
+}
+nav ul li a:hover{
+    color: #F5E104;
+}
+/* Hero Section Styles */
+.hero{
+    font-family: 'Covered By Your Grace', cursive;
+    background: url('../img/hero-banner.webp');
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 2em;
+    color: #000; 
+    font-size: 2em;
+}
+.hero h1{
+    font-size: 2.5em;
+    padding: 0.5em 0;
+}
+.hero p{
+    font-size: 1.5em;
+    padding: 0.5em 0;
+}
+.hero a{
+    padding: 0.5em 0;
+    color: #000;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+.hero a:hover{
+    color: #ffffff;
+}
+/* Main Section Styles */
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FEF100;
+}
+.Mix{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
+.Mix h1{
+    font-size: 3em;
+    padding: 0.5em 0;
+
+}
+.Mix p{
+    font-size: 1em;
+    padding: 0.5em 0;
+    padding-bottom: 2em;
+}
+.Mix-Container{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+.Mix-Container img{
+    max-width: 15em;
+    width: 100%;
+}
+.Mix-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #000;
+}
+.Mix-item h2{
+    font-size: 2em;
+    padding: 0.5em 0;
+}
+.Mix-item p{
+    font-size: 1em;
+}
+.Mix-btn{
+    margin-top: 2em;
+    padding: 0.5em 2em;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 5em;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+.Mix-btn:hover{
+    background-color: #eeeeee;
+    color: #000;
+}
+/*Product*/
+.Product{
+    padding-top: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FEF100;
+}
+.Product h1{
+    font-size: 3em;
+}
+.Product p{
+    font-size: 1.5em;
+    padding: 0.5em 0;
+}
+.Product-btn{
+    margin-top: 2em;
+    padding: 0.5em 2em;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 5em;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+.Product-btn:hover{
+    background-color: #eeeeee;
+    color: #000;
+}
+.Product-Container{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+.Product-Container img{
+    max-width: 15em;
+    height:auto;
+}
+.Product-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #000;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+}
+.Product-item h2{
+    font-size: 2em;
+    padding: 0.5em 0;
+}
+.Product-item p{
+    font-size: 1em;
+}
+.Product-item:hover{
+    transform: scale(1.1);
+}
+/*Footer*/
+footer{
+    background-color: #FEF100;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+}
+footer img{
+    max-width: 10em;
+}
+footer .contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form h2{
+    font-family: 'Poppins', sans-serif;
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form input{
+    font-family: 'Poppins', sans-serif;
+    padding: 0.5em 1em;
+    margin: 0.5em 0;
+    width: 100%;
+    border-radius: 0.5em;
+    border: 1px solid #000;
+}
+.contact-form textarea{
+    font-family: 'Poppins', sans-serif;
+    padding: 0.5em 1em;
+    margin: 0.5em 0;
+    width: 100%;
+    border-radius: 0.5em;
+    border: 1px solid #000;
+}
+.contact-form button{
+    padding: 0.5em 2em;
+    margin: 0.5em 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 5em;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+.contact-form button:hover{
+    background-color: #eeeeee;
+    color: #000;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.social a{
+    font-size: 2em;
+    color: #000;
+    transition: all 0.4s ease-in-out;
+}
+.social a:hover{
+    color: #eeeeee;
+}
+/*Media Queries*/
+@media screen and (max-width: 768px){
+    nav ul{
+        flex-direction: row;
+        height: auto;
+    }
+    nav ul li a{
+        padding: 1em 0;
+    }
+    .hero h1{
+        font-size: 2em;
+    }
+    .hero p{
+        font-size: 1em;
+    }
+    .hero a{
+        font-size: 0.8em;
+    }
+    .Mix h1{
+        font-size: 2em;
+    }
+    .Mix p{
+        font-size: 1em;
+    }
+    .Mix-Container{
+        flex-direction: column;
+    }
+    .Mix-Container img{
+        max-width: 20em;
+    }
+    .Mix-item h2{
+        font-size: 1.5em;
+    }
+    .Mix-item p{
+        font-size: 0.8em;
+    }
+    .Mix-btn{
+        font-size: 1em;
+    }
+    .Product h1{
+        font-size: 2em;
+    }
+    .Product p{
+        font-size: 1em;
+    }
+    .Product-btn{
+        font-size: 1em;
+    }
+    .Product-Container img{
+        max-width: 20em;
+    }
+    .Product-Container{
+        flex-direction: column;
+    }
+    .Product-item h2{
+        font-size: 1.5em;
+    }
+    .Product-item p{
+        font-size: 0.8em;
+    }
+    footer{
+        flex-direction: row;
+    }
+    footer img{
+        max-width: 8em;
+    }
+    .contact-form h2{
+        font-size: 1.5em;
+    }
+    .contact-form input{
+        font-size: 0.8em;
+    }
+    .contact-form textarea{
+        font-size: 0.8em;
+    }
+    .contact-form button{
+        font-size: 0.8em;
+    }
+    .social a{
+        font-size: 1.5em;
+    }
+}
